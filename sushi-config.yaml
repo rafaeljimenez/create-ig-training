@@ -1,59 +1,102 @@
-# Documentation about this page: https://fshschool.org/docs/sushi/configuration/
 
+# Documentation :
+# https://fshschool.org/docs/sushi/configuration/
 
-id: org.fhir.eu.monig
-canonical: https://example.org/ig/monig
-name: ExampleIG # Should be an acronym
-title: IG Example
-description: Description du projet
+# ==========================================
+# HUG - FHIR Implementation Guide
+# ==========================================
+
+id: org.fhir.ch.hug-training
+canonical: https://example.org/ig/hug-training
+name: HUGTrainingIG
+title: "HUG FHIR Implementation Guide - Formation"
+description: "Implementation Guide FHIR de demonstration pour les Hôpitaux universitaires de Genève (HUG)"
+
 publisher:
-  name: Work Group Meeting HL7 Europe Malaga
-  url: https://hl7europe.eu/hl7-europe-working-group-meeting-malaga-2026/
-status: draft # draft | active | retired | unknown
-version: 0.1.0 # shall conforms to Semantic Versioning https://fr.wiktionary.org/wiki/SemVer
+  name: "Hôpitaux universitaires de Genève (démonstration)"
+  url: https://www.hug.ch
+
+status: draft
+version: 0.1.0
 fhirVersion: 4.0.1
-copyrightYear: 2020+
-releaseLabel: ci-build 
+copyrightYear: 2026+
+releaseLabel: ci-build
 
-jurisdiction: urn:iso:std:iso:3166#FR "France (la)"
+# ==========================================
+# Juridiction
+# ==========================================
 
-parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
-    shownav: 'true'
-    path-expansion-params: '../../expansion-params.json' # for using French SNOMED CT Extension
-    pin-canonicals: pin-all
-    path-suppressed-warnings: input/ignoreWarnings.txt
-    apply-contact: true
-    show-inherited-invariants: true
-    logging:
-      - tx #tx: Messages describing the use of the terminology server (for debugging)
-      - html #html: Log when validating an html page (troubleshooting only - leave off)
-      - generate #generate: Log when producing an individual resource (troubleshooting only - leave off)
-      - init #init: Messages describing the start up process (for debugging)
-      - progress #progress: Overall progress messages
-    i18n-default-lang: fr # Default language
-    apply-jurisdiction: true
-    i18n-lang:
-      - en
-    translation-sources:
-      - input/translations/en
+jurisdiction: urn:iso:std:iso:3166#CH "Switzerland"
 
+# ==========================================
+# Dependances FHIR
+# ==========================================
+
+dependencies:
+  ch.fhir.ig.ch-core: 6.0.0
+
+# ==========================================
+# Parametres IG Publisher
+# ==========================================
+
+parameters:
+  shownav: 'true'
+
+  pin-canonicals: pin-all
+
+  path-suppressed-warnings: input/ignoreWarnings.txt
+
+  apply-contact: true
+
+  show-inherited-invariants: true
+
+  logging:
+    - tx
+    - html
+    - generate
+    - init
+    - progress
+
+  # Langue principale : francais
+  i18n-default-lang: fr
+
+  apply-jurisdiction: true
+
+  # Traduction anglaise
+  i18n-lang:
+    - en
+
+  translation-sources:
+    - input/translations/en
+
+# ==========================================
+# Pages de documentation
+# ==========================================
 
 pages:
-    index.md:
-        title: Home
-    introduction.md:
-        title: Introduction
-    functional.md:
-        title: Functional
-    implementation.md:
-        title: Implementation
-    about.md:
-        title: About
+  index.md:
+    title: Home
+
+  introduction.md:
+    title: Introduction
+
+  functional.md:
+    title: Functional
+
+  implementation.md:
+    title: Implementation
+
+  about.md:
+    title: About
+
+# ==========================================
+# Menu de navigation
+# ==========================================
 
 menu:
-    Home: index.html
-    Introduction: introduction.html
-    Functional: functional.html
-    Implementation: implementation.html
-    About: about.html
-    Artifacts: artifacts.html
+  Home: index.html
+  Introduction: introduction.html
+  Functional: functional.html
+  Implementation: implementation.html
+  About: about.html
+  Artifacts: artifacts.html
