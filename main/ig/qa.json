@@ -1,0 +1,20 @@
+{
+  "url" : "https://example.org/ig/hug-training/ImplementationGuide/org.fhir.ch.hug-training",
+  "name" : "HUGTrainingIG",
+  "title" : "HUG FHIR Implementation Guide - Formation",
+  "description" : "Implementation Guide FHIR de demonstration pour les Hôpitaux universitaires de Genève (HUG)",
+  "status" : "draft",
+  "package-id" : "org.fhir.ch.hug-training",
+  "ig-ver" : "0.1.0",
+  "date" : "Thu, 19 Nov, 2026 10:52:17 +0000",
+  "dateISO8601" : "2026-11-19T10:52:17+00:00",
+  "errs" : 4,
+  "warnings" : 15,
+  "hints" : 4,
+  "broken-links" : 0,
+  "suppressed-hints" : 73,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 1124972696
+}

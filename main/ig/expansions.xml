@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="24a70d22-39a4-4cae-94cb-7730cead719a"/>
+  <meta>
+    <lastUpdated value="2026-11-19T10:52:17.909+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://example.org/ig/hug-training/ValueSet/hug-allergen-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
+              <a href="CodeSystem-hug-allergen-cs.html">codesystem HUG Allergen Code System v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs|0.1.0" title="Cliquer pour copier l'URL" class="btn-copy" aria-label="copy"> </button>
+              </span>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs-latex"> </a>
+                  <code>https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-hug-allergen-cs.html#hug-allergen-cs-latex">latex</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;latex&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;latex&quot;/&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs-penicillin"> </a>
+                  <code>https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-hug-allergen-cs.html#hug-allergen-cs-penicillin">penicillin</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;penicillin&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;penicillin&quot;/&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs-peanut"> </a>
+                  <code>https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-hug-allergen-cs.html#hug-allergen-cs-peanut">peanut</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;peanut&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs&quot;/&gt;&lt;version value=&quot;0.1.0&quot;/&gt;&lt;code value=&quot;peanut&quot;/&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy" aria-label="copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://example.org/ig/hug-training/ValueSet/hug-allergen-vs"/>
+        <version value="0.1.0"/>
+        <name value="HUGAllergenVS"/>
+        <title value="HUG Allergen Value Set"/>
+        <status value="draft"/>
+        <date value="2026-11-19T10:52:17+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CH"/>
+            <display value="Switzerland"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:f82e1bff-1d9d-40a9-a8b0-6e1cd0070190"/>
+          <timestamp value="2026-11-19T10:53:20+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs"/>
+            <code value="latex"/>
+          </contains>
+          <contains>
+            <system value="https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs"/>
+            <code value="penicillin"/>
+          </contains>
+          <contains>
+            <system value="https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs"/>
+            <code value="peanut"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

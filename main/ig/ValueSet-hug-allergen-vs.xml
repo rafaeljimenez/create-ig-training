@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="hug-allergen-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : EnsembleValeurs hug-allergen-vs</b></p><a name="hug-allergen-vs"> </a><a name="hchug-allergen-vs"> </a><ul><li>Include tous les codes définis dans <a href="CodeSystem-hug-allergen-cs.html"><code>https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs</code></a><span title="La version est explicitement indiquée comme étant 0.1.0"> version &#x1F4CD;0.1.0</span></li></ul></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet hug-allergen-vs</b></p><a name="en-hug-allergen-vs"> </a><a name="en-hchug-allergen-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-hug-allergen-cs.html"><code>https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs</code></a><span title="Version is explicitly stated to be 0.1.0"> version &#x1F4CD;0.1.0</span></li></ul></div></div>
+  </text>
+  <url value="https://example.org/ig/hug-training/ValueSet/hug-allergen-vs"/>
+  <version value="0.1.0"/>
+  <name value="HUGAllergenVS"/>
+  <title value="HUG Allergen Value Set"/>
+  <status value="draft"/>
+  <date value="2026-11-19T10:52:17+00:00"/>
+  <publisher value="Hôpitaux universitaires de Genève (démonstration)"/>
+  <contact>
+    <name value="Hôpitaux universitaires de Genève (démonstration)"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hug.ch"/>
+    </telecom>
+  </contact>
+  <description value="Allergenes autorises pour la demonstration"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CH"/>
+      <display value="Switzerland"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs"/>
+      <version value="0.1.0"/>
+    </include>
+  </compose>
+</ValueSet>

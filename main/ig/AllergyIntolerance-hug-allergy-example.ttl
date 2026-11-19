@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://example.org/ig/hug-training/AllergyIntolerance/hug-allergy-example> a fhir:AllergyIntolerance ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "hug-allergy-example"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://example.org/ig/hug-training/StructureDefinition/hug-allergy-intolerance" ;
+       fhir:index 0 ;
+       fhir:link <https://example.org/ig/hug-training/StructureDefinition/hug-allergy-intolerance>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : IntoléranceAllergique hug-allergy-example</b></p><a name=\"hug-allergy-example\"> </a><a name=\"hchug-allergy-example\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-hug-allergy-intolerance.html\">HUG Allergy Intolerance</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}\">Confirmed</span></p><p><b>code</b>: <span title=\"Codes :{https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs latex}\">Latex</span></p><p><b>patient</b>: <a href=\"Patient-hug-patient-demo.html\">Alice Exemple  Female, Date de Naissance :1990-05-15</a></p></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: AllergyIntolerance hug-allergy-example</b></p><a name=\"en-hug-allergy-example\"> </a><a name=\"en-hchug-allergy-example\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hug-allergy-intolerance.html\">HUG Allergy Intolerance</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}\">Confirmed</span></p><p><b>code</b>: <span title=\"Codes:{https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs latex}\">Latex</span></p><p><b>patient</b>: <a href=\"Patient-hug-patient-demo.html\">Alice Exemple  Female, DoB: 1990-05-15</a></p></div></div>"
+  ] ;
+  fhir:AllergyIntolerance.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical" ] ;
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ] ;
+  fhir:AllergyIntolerance.verificationStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification" ] ;
+       fhir:Coding.code [ fhir:value "confirmed" ]
+     ]
+  ] ;
+  fhir:AllergyIntolerance.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs" ] ;
+       fhir:Coding.code [ fhir:value "latex" ] ;
+       fhir:Coding.display [ fhir:value "Latex" ]
+     ]
+  ] ;
+  fhir:AllergyIntolerance.patient [
+     fhir:link <https://example.org/ig/hug-training/Patient/hug-patient-demo> ;
+     fhir:Reference.reference [ fhir:value "Patient/hug-patient-demo" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://example.org/ig/hug-training/AllergyIntolerance/hug-allergy-example.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

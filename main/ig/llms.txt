@@ -1,0 +1,33 @@
+# org.fhir.ch.hug-training#0.1.0: HUG FHIR Implementation Guide - Formation
+
+## Pages
+
+* [Home](index.md)
+* [Implementation](implementation.md)
+* [About](about.md)
+* [Artifacts Summary](artifacts.md)
+* [Introduction](introduction.md)
+* [Functional](functional.md)
+
+## Resources
+
+### CodeSystems
+
+* [HUG Allergen Code System](CodeSystem-hug-allergen-cs.md)
+
+### ValueSets
+
+* [HUG Allergen Value Set](ValueSet-hug-allergen-vs.md)
+
+### Resource Profiles
+
+* [HUG Allergy Intolerance](StructureDefinition-hug-allergy-intolerance.md)
+
+### ImplementationGuides
+
+* [HUG FHIR Implementation Guide - Formation](index.md)
+
+### Examples
+
+* [hug-allergy-example (AllergyIntolerance)](AllergyIntolerance-hug-allergy-example.md)
+* [hug-patient-demo (Patient)](Patient-hug-patient-demo.md)

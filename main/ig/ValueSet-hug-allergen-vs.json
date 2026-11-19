@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "hug-allergen-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs hug-allergen-vs</b></p><a name=\"hug-allergen-vs\"> </a><a name=\"hchug-allergen-vs\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-hug-allergen-cs.html\"><code>https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs</code></a><span title=\"La version est explicitement indiquée comme étant 0.1.0\"> version &#x1F4CD;0.1.0</span></li></ul></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet hug-allergen-vs</b></p><a name=\"en-hug-allergen-vs\"> </a><a name=\"en-hchug-allergen-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-hug-allergen-cs.html\"><code>https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs</code></a><span title=\"Version is explicitly stated to be 0.1.0\"> version &#x1F4CD;0.1.0</span></li></ul></div></div>"
+  },
+  "url" : "https://example.org/ig/hug-training/ValueSet/hug-allergen-vs",
+  "version" : "0.1.0",
+  "name" : "HUGAllergenVS",
+  "title" : "HUG Allergen Value Set",
+  "status" : "draft",
+  "date" : "2026-11-19T10:52:17+00:00",
+  "publisher" : "Hôpitaux universitaires de Genève (démonstration)",
+  "contact" : [{
+    "name" : "Hôpitaux universitaires de Genève (démonstration)",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hug.ch"
+    }]
+  }],
+  "description" : "Allergenes autorises pour la demonstration",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CH",
+      "display" : "Switzerland"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs",
+      "version" : "0.1.0"
+    }]
+  }
+}

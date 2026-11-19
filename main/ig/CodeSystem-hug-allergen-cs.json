@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "hug-allergen-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem hug-allergen-cs</b></p><a name=\"hug-allergen-cs\"> </a><a name=\"hchug-allergen-cs\"> </a><p>This  code system <code>https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td style=\"white-space:nowrap\">latex<a name=\"hug-allergen-cs-latex\"> </a></td><td>Latex</td></tr><tr><td style=\"white-space:nowrap\">penicillin<a name=\"hug-allergen-cs-penicillin\"> </a></td><td>Penicillin</td></tr><tr><td style=\"white-space:nowrap\">peanut<a name=\"hug-allergen-cs-peanut\"> </a></td><td>Peanut</td></tr></table></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hug-allergen-cs</b></p><a name=\"en-hug-allergen-cs\"> </a><a name=\"en-hchug-allergen-cs\"> </a><p>This  code system <code>https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">latex<a name=\"en-hug-allergen-cs-latex\"> </a></td><td>Latex</td></tr><tr><td style=\"white-space:nowrap\">penicillin<a name=\"en-hug-allergen-cs-penicillin\"> </a></td><td>Penicillin</td></tr><tr><td style=\"white-space:nowrap\">peanut<a name=\"en-hug-allergen-cs-peanut\"> </a></td><td>Peanut</td></tr></table></div></div>"
+  },
+  "url" : "https://example.org/ig/hug-training/CodeSystem/hug-allergen-cs",
+  "version" : "0.1.0",
+  "name" : "HUGAllergenCS",
+  "title" : "HUG Allergen Code System",
+  "status" : "draft",
+  "date" : "2026-11-19T10:52:17+00:00",
+  "publisher" : "Hôpitaux universitaires de Genève (démonstration)",
+  "contact" : [{
+    "name" : "Hôpitaux universitaires de Genève (démonstration)",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hug.ch"
+    }]
+  }],
+  "description" : "Codes fictifs pour l'atelier HUG",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CH",
+      "display" : "Switzerland"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "latex",
+    "display" : "Latex"
+  },
+  {
+    "code" : "penicillin",
+    "display" : "Penicillin"
+  },
+  {
+    "code" : "peanut",
+    "display" : "Peanut"
+  }]
+}

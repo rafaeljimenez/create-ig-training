@@ -1,0 +1,72 @@
+{
+  "package": "org.fhir.ch.hug-training",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "CH",
+  "extensions": [],
+  "profiles": {
+    "AllergyIntolerance": [
+      {
+        "url": "https://example.org/ig/hug-training/StructureDefinition/hug-allergy-intolerance",
+        "title": "HUG Allergy Intolerance"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty|5.3.0-ballot-tc1": [
+      "AllergyIntolerance.reaction"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/allergyintolerance-duration|5.3.0-ballot-tc1": [
+      "AllergyIntolerance.reaction"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/openEHR-exposureDate|5.3.0-ballot-tc1": [
+      "AllergyIntolerance.reaction"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/openEHR-exposureDescription|5.3.0-ballot-tc1": [
+      "AllergyIntolerance.reaction"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/openEHR-exposureDuration|5.3.0-ballot-tc1": [
+      "AllergyIntolerance.reaction"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/openEHR-location|5.3.0-ballot-tc1": [
+      "AllergyIntolerance.reaction"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/openEHR-management|5.3.0-ballot-tc1": [
+      "AllergyIntolerance.reaction"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ]
+  }
+}
